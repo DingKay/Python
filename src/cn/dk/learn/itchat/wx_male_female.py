@@ -7,7 +7,7 @@ import itchat as wx
 wx.login()
 
 # Get friends list
-friends = wx.get_friends(update=True)[0:]
+friends = wx.get_friends(update = True)[0:]
 
 # intialization
 male = female = other = total = 0
