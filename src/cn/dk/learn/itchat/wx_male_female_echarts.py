@@ -9,7 +9,7 @@ print("start")
 
 wx.login()
 
-friends = wx.get_friends(update=True)[0:]
+friends = wx.get_friends(update = True)[0:]
 
 male = female = total = other = 0
 
